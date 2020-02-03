@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskDatesConsoleApp", "TestTaskDatesConsoleApp.csproj", "{2B5060DA-FCD6-4BBF-8A2B-FA9FA3092E2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ADF253C1-F221-447F-A295-A5FCCF40D983} = {ADF253C1-F221-447F-A295-A5FCCF40D983}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTaskDatesCommon", "..\TestTaskDatesCommon\TestTaskDatesCommon.csproj", "{ADF253C1-F221-447F-A295-A5FCCF40D983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B5060DA-FCD6-4BBF-8A2B-FA9FA3092E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5060DA-FCD6-4BBF-8A2B-FA9FA3092E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5060DA-FCD6-4BBF-8A2B-FA9FA3092E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5060DA-FCD6-4BBF-8A2B-FA9FA3092E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF253C1-F221-447F-A295-A5FCCF40D983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF253C1-F221-447F-A295-A5FCCF40D983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF253C1-F221-447F-A295-A5FCCF40D983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF253C1-F221-447F-A295-A5FCCF40D983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E518DB5-6739-4401-93E4-7A1DD9537BB5}
+	EndGlobalSection
+EndGlobal
