@@ -25,24 +25,32 @@
 Примеры использования апи:
 
 1) https://localhost:5001/api/Account/Register - POST - регистрация нового пользователя. 
+
 === Body example: ===
+
 Login:user322
 Password:228
 
 2) https://localhost:5001/api/Account/Token - POST - авторизация существующего пользователя
+
 === Body example: ===
+
 Login:user322
 Password:228
 
 3) https://localhost:5001/api/Date/get/all - GET - получение списка всех имеющихся в БД диапазонов дат.
 
 4) https://localhost:5001/api/Date/insert_date_range - PUT - вставка нового диапазона. Только для авторизованных пользователей.
+
 === Body example: ===
+
 Start:2018-02-23
 End:2018-03-08
 
 5) https://localhost:5001/api/Date/get_date_range_intersect - POST - фильтрация по заданию. Только для авторизованных пользователей.
+
 === Body example: ===
+
 Start:2018-01-01
 End:2018-01-02
 
