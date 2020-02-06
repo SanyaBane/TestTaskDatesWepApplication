@@ -66,13 +66,20 @@ End:2018-01-02
 
 Состоит из двух таблиц **DateRanges** и **Users** 
 
+
 == DateRanges ==
+
 ID - int - primary key
+
 Start - datetime
+
 End - datetime
 
+
 == Users ==
+
 Login - string - primary key 
+
 Password - string
 
 
